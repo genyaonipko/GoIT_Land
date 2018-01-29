@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoIT</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="row no-gutters header__row justify-content-around">
+            <div class="col-5 col-md-7">
+                <a href="http://fe.new.goit.ua/" class="logo"  target="_blank"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
+            </div>
+            <div class="col-7 col-md-3  text-right">
+                <a href="tel:" class="phone-number">+38 (093) 343 21 27</a>
+            </div>
+        </div>
+        <div class="row no-gutters justify-content-around">
+            <div class="col-md-12 col-lg-5">
+                <div class="header__item">
+                    <p class="text-orange">ОНЛАЙН МАСТЕР-КЛАСС</p>
+                    <h2 class="text-white-huge text-white-huge__margin">САЙТ ЗА 2 ВЕЧЕРА СВОИМИ РУКАМИ БЕЗ ЗНАНИЙ В IT</h2>
+                    <p class="text-white-huge text-inline">[ДЛЯ 30+ ЛЕТНИХ]</p>
+                </div>
+                <div class="header__item header__item--third">
+                    <p class="text-white ">Как без знаний программирования и математического склада ума <span>за выходные</span> создать сайт, который легко продать за <span>$300</span></p>
+                    <p class="text-color-unique">[ для тех, кто давно хотел начать зарабатывать в IT, но не знал с чего начать ]</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 offset-lg-1 offset-md-0">
+                <div class="header__item">
+                    <p class="text-white-smaller">30 ЯНВАРЯ 2018 В 20:00 по КИЕВУ</p>
+                    <p class="text-white__small">НАЧАЛО ЧЕРЕЗ:</p>
+                    <div class="timer-value">
+                        <p class="text-white-timer">
+                            <span class="days">00</span>:<span class="hours">00</span>:<span class="minutes">00</span>:<span class="sec">00</span>:<span class="msec"></span></p>
+                    </div>
+                    <div class="timer-top timer-bottom">
+                        <p class="text-small-silver day">дн</p>
+                        <p class="text-small-silver">час</p>
+                        <p class="text-small-silver">мин</p>
+                        <p class="text-small-silver seconds">сек</p>
+                        <p class="text-small-silver seconds">мсек</p>
+                    </div>
+                    <span class="bgc-white">Участие <span>БЕСПЛАТНО</span> для первых <br> 153 зарегистрировавшихся.<br> Для остальных - $93.</span><br>
+                    <img src="img/arrowdown.png" alt="Error" class="arrow-down">
+                    <div class="butt d-flex justify-content-flexstart">
+                        <button type="button" class="button-head button-head__margin" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="wrapper-main">
+    <section class="first-section__one">
+        <div class="container">
+            <div class="row wrapper-main__first no-gutters justify-content-around">
+                <div class="col-lg-5 col-md-12">
+                    <div class="text-go">
+                        <h3 class="text-black-huge">[ ВОЗМОЖНО, ТЕБЕ ТОЖЕ ПОРА_ ]</h3>
+                        <p class="text-black">начать получать больше денег и больше удовольствия от работы?</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                    <img src="img/Img.png" alt="Error" class="img-main img-fluid img-center">
+                </div>
+                <div class="col-12">
+                    <p class="text-black-smaller text-black-smaller__margin">
+                        ЕСЛИ ТЫ:
+                    </p>
+                </div>
+                <div class="col-12 col-sm-5">
+                    <ul class="list-left">
+                        <li>Осознаешь что <b>живешь только по выходным.</b> Все остальное время ждешь когда они наступят - а жизнь проходит мимо</li>
+                        <li>Задолбался ездить в офис в <b>тесной маршрутке или метро</b>, где все лазят по головам, наступают на ноги</li>
+                        <li>Устал опускать голову и смотреть в пол, когда начальник отчитывает тебя за то, в чем ты не виноват, но ничего не можешь доказать</li>
+                        <li>Не хочешь постоянно брать на себя все <b>больше и больше ответственности на работе</b> за те же деньги</li>
+                        <li>Задолбался <b>впахивать как ломовая лошадь</b> 250 дней в году, чтобы на 1,5 недели съездить в Турцию с детьми, где они вымотают тебя окончательно</li>
+                        <li>У тебя полно идей, как улучшить процессы на работе, но ты отказался от них давно, потому что <b>начальники смотрят свысока</b> или постоянно напоминают, где твое место</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-5">
+                    <ul class="list-right">
+                        <li>Просто хочешь зарабатывать <b>больше денег</b> и чувствовать себя более уверенно</li>
+                        <li>Устал приходить на &#171;9:00&#187; утра в нудный офис, где <b>все корчат дружелюбных</b>, а на деле каждый мечтает тебя "подсидеть"</li>
+                        <li>Находясь на работе, каждую минуту чувствуешь что тупеешь. Ты против этого, но ничего не можешь поделать - <b>окружение тормозит тебя</b></li>
+                        <li>Бесит, что все вокруг радуются жизни и наслаждаются, а ты горбатишься на "дядю", который даже <b>тебя не ценит</b></li>
+                        <li><b>Часто берешь работу на дом</b>, чтобы выгородить начальника или свой отдел в то время как он развлекается и отдыхает на курортах</li>
+                        <li>Хочешь развиваться - с каждым месяцем уметь больше, делать <b>задачи интереснее</b> и получать <b>больше денег...</b></li>
+                    </ul>
+                    <div class="bgc-area">
+                        <span class="bgc-black bgc-black__lighter"> ... тогда тебе тоже пришло время размять мозги и расширить кошелек в IT! </span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="text-main__area">
+                        <p class="text-main__black">Узнай как это возможно для тебя и сделай <span class="text-main__orange">первый шаг к успешной карьере</span> на мастер-классе <span class="text-main__orange">30 января в 20:00 По Киеву</span>!</p>
+                    </div>
+                </div>
+                <div class="col-1 d-none d-sm-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.99 14" class="img-svg img-right"><defs><style>.cls-1{fill:#ff6b08;fill-rule:evenodd;}</style></defs><title>arrow_right</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><polygon class="cls-1" points="36.99 7 25.01 0 25.01 4.99 0 4.99 0 8.99 25.01 8.99 25.01 14 36.99 7"/></g></g></svg>
+                </div>
+                <div class="col-12 col-md-12 col-lg-5">
+                    <div class="button-wrapper">
+                        <button type="button" class="button-head button-link" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="first-section__two">
+        <div class="container">
+            <div class="row no-gutters justify-content-around">
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="img/Img_2.png" alt="Error" class="img-fluid img-center">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h3 class="text-black-huge">[ ТЫ НАВЕРНЯКА <br> ПОНИМАЕШЬ_ ]</h3>
+                    <p class="text-black">что работа в IT - это прибыльно, <br> интересно и перспективно</p>
+                    <ul class="list-second">
+                        <li>Можно работать в <br> <b>комфортном офисе</b><br> или у себя дома на <br> диване в удобное <br> время</li>
+                        <li>Постоянно новые <br> проекты, амбициозные <br> задачи, где мозги <br> кипят, а когда сделал - <br> чувствуешь гордость</li>
+                        <li>Постоянный рост - <br> зарплаты, навыков, <br> статуса</li>
+                        <li>Возможность работать <br> в СНГ или Европе, или <br> даже в США</li>
+                        <li><b>Стабильный доход в<br> Долларах</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="first-section__tree">
+        <div class="container">
+            <div class="row no-gutters justify-content-around">
+                <div class="col-12">
+                    <div class="number-1">
+                        <h4 class="text-black-middle">[ <span class="text-orange-middle">IT-отрасль - №1 в СНГ</span> по выводу денег с фрилансерских бирж и по росту количества вакансий ]</h4>
+                    </div>
+                </div ord>
+                <div class="col-lg-5 col-md-12 first-order">
+                    <div class="wasserman">
+                        <h3 class="text-black-huge">[ ОДНАКО ОЧЕНЬ МНОГИЕ ДУМАЮТ_ ]</h3>
+                        <p class="text-black">что для работы в IT нужно быть математическим гением…</p>
+                        <p class="text-small-silver text-black-add">... однако на самом деле это необходимо только программистам, которые пишут ПО для управления спутниками и старта космических ракет…</p>
+                        <p class="text-small-silver text-black-add">Им действительно нужно быть гениями, днями и ночами ковыряться в бесконечном коде, забивать на себя, на отношения, даже иногда на гигиену.</p>
+                    </div>
+                </div>
+                <div class="col-7 d-none d-md-block second-order">
+                    <img src="img/Wasserman.png" alt="Error" class="img-fluid img-wasserman img-center">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="first-section__four">
+        <div class="container">
+            <div class="row no-gutters justify-content-around">
+                <div class="col-6 d--none d-md-block section-unique">
+                    <img src="img/Img_4.png" alt="Error" class="img-fluid">
+                </div>
+                <div class="col-lg-5 col-md-12 section-unique">
+                    <div class="text-middle__area">
+                        <h5 class="text-middle__smaller">Однако если ты не хочешь углубляться в дебри программирования</h5>
+                        <p class="text-small-silver text-small-silver__margin text-black-add">А просто хочешь хорошо зарабатывать, быть свободным и иметь время на личную жизнь...</p>
+                        <span class="bgc-black bgc-black__lighter"> Тогда сейчас перед тобой есть другой путь</span>
+                        <br>
+                        <span class="bgc-black bgc-black__lighter"> &#8210; стать разработчиком. </span>
+                        <p class="text-small-silver text-small-silver__margin text-black-add">Это специалист, который делает красивые веб-сайты, интернет мазагины, интересные веб-приложения, за которые хорошо платят ... При этом стать разработчиком может каждый, у кого есть всего 3 качества: <b>дисциплинированность, внимательность и  желание заниматься интересным делом.</b></p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="bgc-area-align">
+                        <span class="bgc-black bgc-black__lighter">Участие <span>БЕСПЛАТНО</span> для первых <span class="bgc-black bgc-black__lighter">153 зарегистрировавшихся.</span><br><span class="bgc-black bgc-black__lighter">Для остальных - $93.</span></span>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.99 14" class="img-svg img-svg-hidden"><defs><style>.cls-1{fill:#ff6b08;fill-rule:evenodd;}</style></defs><title>arrow_right</title><g id="layer_2" data-name="Layer_2"><g id="Layer_1_2" data-name="Layer_1"><polygon class="cls-1" points="36.99 7 25.01 0 25.01 4.99 0 4.99 0 8.99 25.01 8.99 25.01 14 36.99 7"/></g></g></svg>
+                </div>
+                <div class="col-12 col-sm-5">
+                    <div class="timer-top">
+                        <p class="text-small-silver day">дн</p>
+                        <p class="text-small-silver">час</p>
+                        <p class="text-small-silver">мин</p>
+                        <p class="text-small-silver seconds">сек</p>
+                        <p class="text-small-silver seconds">мсек</p>
+                    </div>
+                    <div class="timer-value midle">
+                        <p class="text-black-timer">
+                            <span class="days">00</span>:<span class="hours">00</span>:<span class="minutes">00</span>:<span class="sec">00</span>:<span class="msec">00</span></p>
+                    </div>
+                    <div class="button-wrapper">
+                        <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8">
+                    <div class="text-last">
+                    <h4 class="text-black-middle">[ _Если ты можешь найти сумму ячеек в Excel, то при должной мотивации <span class="text-orange-middle"> легко сможешь стать разработчиком с хорошим доходом! </span>_ ]</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second-section-header">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="column-left">
+                            <h2 class="text-white-huge">[ Приходи на мастер-класс и_ ]</h2>
+                            <ul class="list">
+                                <li>Открой, что такое верстка и разработка сайтов и почему это легче, чем ты сейчас думаешь (<b>даже твоя мама это сможет, если сильно захочет</b> и приложит усилия)</li>
+                                <li>Получи пошаговую инструкцию как сверстать свой первый сайт, даже если ты прогуливал в школе уроки информатики</li>
+                                <li>Получи <b>«рецепт» от многих ошибок</b> на пути в карьере разработчика, которые допускают большинство новичков и отдаляют достижение целей</li>
+                                <li>Увидишь на примере как работает профессионал-разработчик и <b>убедишься, что это просто</b></li>
+                                <li>Открой, какие интересные и амбициозные задачи ждут тебя в профессии разработчика </li>
+                                <li>Увидишь как <b>легко оформлять</b> «дорогие» и красивые сайты, за которые <b>заказчики готовы платить хорошие деньги</b> (инсайдерские секреты разработчиков)</li>
+                                <li>Откроешь как стать прогрессивным IT-шником, даже если сейчас тебе 35, 48 или 21</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="column-right">
+                            <p class="text-white-huge--paragraph"><span class="present-ico"></span><br>Бонусы, которые помогут тебе быстрее стартовать карьеру разработчика:</p>
+                            <ul class="list list--counter-top">
+                                <li>PDF <span>«Карта профессий в IT»</span>, чтобы видеть, куда дальше двигаться и какие перспективы тебя ожидают</li>
+                                <li>PDF <span>«Переводчик с IT-языка на человеческий»</span>, чтобы ты уверенно чувствовал себя в этой сфере.</li>
+                            </ul>
+                            <div class="button-wrapper">
+                                <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="second-section-wrapper second-section-wrapper--first">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <div class="second-section_firstrow">
+                        <div class="text-second-section_firstrow">
+                            <h2 class="text-black-huge">[ После <br>мастер-класса_ ]</h2>
+                            <h3>твой взгляд на твое финансовое будущее в<br>IT-индустрии изменится навсегда</h3>
+                        </div>
+                        <ul class="list list-left">
+                            <li><span>Откроешь свои большие перспективы в IT - как ты можешь <b>работать с любой точки мира</b> (хоть с пляжа, хоть с гор)</span></li>
+                            <li><span>Получишь уверенность, что ты можешь хорошо зарабатывать в модной профессии <b>без необходимости быть гением</b></span></li>
+                            <li><span>Узнаешь, что делать после мастер-класса, чтобы продолжить свою карьеру разработчика с доходом от <br>$1000 в месяц</b></span></li>
+                            <li><span>Узнаешь, как скоро ты сможешь зарабатывать $1000-$3000-$5000 и больше и четко пойми что для этого нужно</span></li>
+                            <li><span>Создашь себе первый сайт в портфолио, чтобы иметь фору перед другими соискателями на любой проект или работу</span></li>
+                            <li><span>Разомнешь мозг и выполнешь интересную задачку по верстке, чем <b>ты будешь гордиться</b>, а друзья скажут “ВАУ”</span></li>
+                            <li><span><b>Хорошо зарабатывай в IT</b>, даже не бросая текущую работу (пока не выйдешь на уровень $1000+)</span></li>
+                            <li><span>Открой, какие интересные и амбициозные задачи ждут тебя в профессии разработчика</span></li>
+                        </ul>
+                        <p class="text-subscribe">[ ...и много-много другого ]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second-section-wrapper second-section-wrapper--second">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-12"><div class="delimiter"></div></div>
+            </div>
+            <div class="row no-gutter">
+                <div class="col-12">
+                    <div class="header-cenetered">
+                        <h2 class="text-black-huge">[ Тебя за руку в профессию введет_  ]</h2>
+                        <h3>Эксперт в разработке сайтов Александр Репета</h3>  
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <ul class="list list--counter-left">
+                        <li>Senior JavaScript Developer с опытом 5+ лет (до IT работал переводчиком и преподавателем английского языка)</li>
+                        <li>Стоимость его рабочего часа — $30</li>
+                        <li>CTO (технический директор) в GoIT, обучил более 200 студентов за 2017 год</li>
+                        <li>Уровень удовлетворенности его студентов — 9,4 из 10</li>
+                        <li>Автор программ HTML/CSS и JavaScript</li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-lg-5 offset-lg-1 d-none d-lg-block justify-content-center">
+                    <div class="foto-wrap">
+                        <img class="repeta-foto" src="img/repeta.jpg" class="img-fluid img-center" alt="A.Repeta">
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-12 col-lg-6">
+                    <div class="row-delimiter">
+                        <h3>Хочешь обучаться интересно и быстро получать результаты — <span>начинай сейчас с бесплатного мастер-класса!</span></h3>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="row-delimiter">
+                        <div class="column-right">
+                            <div class="button-wrapper">
+                                <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                            </div>
+                            <div class="places-left d-flex justify-content-center">
+                                <span class="bgc-white text-align-center">Участие <span>БЕСПЛАТНО</span> для первых <br> 153 зарегистрировавшихся.<br> Для остальных - $93.</span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="third-section third-section-header">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-md-12">
+                    <h2 class="text-white-huge">[ P. S. ]</h2>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-white">Да, сейчас вы можете закрыть эту страницу…</h3>
+                    <p>Подумать, «это не для меня», «я слишком стар», «я слишком молод», «как-то в другой раз, не сейчас». И… почти ничего не изменится. Останется ненавистная работа, денег все так же не будет хватать. Добавится больше скуки, разочарования, усталости… </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="go-background">
+                        <div class="column-right">
+                            <h3 class="text-white">Или ты можешь сейчас зарегистрироваться</h3>
+                            <p>На мастер-класс и открыть для себя новый путь в классную профессию, интересную жизнь, путь к большим деньгам и статусу.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+
+                    <div class="choise-wrapper">
+                            <p class="text-white__small">НАЧАЛО ЧЕРЕЗ:</p>
+                            <div class="timer-value bottom">
+                                <p class="text-white-timer">
+                                    <span class="days">00</span>:<span class="hours">00</span>:<span class="minutes">00</span>:<span class="sec">00</span>:<span class="msec"></span></p>
+                            </div>
+                            <div class="timer-top timer-bottom">
+                                <p class="text-small-silver day">дн</p>
+                                <p class="text-small-silver">час</p>
+                                <p class="text-small-silver">мин</p>
+                                <p class="text-small-silver seconds">сек</p>
+                                <p class="text-small-silver seconds">мсек</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="choise-wrapper right">
+                        <div class="column-right">
+                            <p class="choise-text">Выбор за тобой…</p>
+                            <div class="button-wrapper">
+                                <button type="button" class="button-head" data-toggle="modal" data-target="#modal_4">УЧАСТВОВАТЬ В МАСТЕР-КЛАССЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                    <div class="col-5 ">
+                        <a href="http://fe.new.goit.ua/" class="logo logo-bottom"  target="_blank"><img src="img/Logo.png" alt="Logo" class="img-logo"></a>
+                    </div>
+                    <div class="col-7 text-right">
+                        <a href="tel:" class="phone-number">+38 (093) 343 21 27</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- <div class="modal" id="modal_4">
+            <div class="popup__close icon-cancel" data-dismiss="modal" aria-label="Close"></div>
+            <div id="myProgress">
+                <span id="all" style="color: rgb(255, 255, 255);"><i id="per">80</i>% готово</span>
+                <div id="myBar" style="width: 80%;"></div>
+            </div>
+            <h4>Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе.</h4>
+           
+        </div> -->
+        <div class="mfp-content">
+            <form id="modal_4" name="registration" class="modal" action="success/success.html" accept-charset="utf-8" method="post" novalidate="novalidate">
+            <div id="myProgress">
+                <span id="all" style="color: rgb(255, 255, 255);"><i id="per">80</i>% готово</span>
+                <div id="myBar" style="width: 80%;"></div>
+            </div>
+            <h4>Почти готово! Пожалуйста, заполните эту форму и нажмите кнопку ниже, чтобы участвовать в онлайн мастер-классе.</h4>
+            
+            <p>Да, я</p>
+            <p style="color: #ff6b08;">
+                <label for="focus">(введите ваше имя)</label>
+                <input id="focus" type="text" name="first_name" autofocus>
+            </p>
+            <p>хочу участвовать в Онлайн Мастер-Классе</p>
+            <br>
+            <p>Вышлите мне доступ на email</p>
+            <p style="color: #ff6b08;">
+                <label for="email">(впишите свой E-mail)</label>
+                <input id="email" type="text" name="email">
+            </p>
+            <p>Чтобы я 100% не забыл, пришлите мне <br>СМС-напоминание на этот моб. тел </p>
+            <p style="color: #ff6b08;">
+                <label for="tel">(введите номер)</label>
+                <input id="tel" type="text" name="custom_cell_phone">
+                <br>
+                <label id="tel-error" class="error" for="tel" style="display: inline;">Только цифры +380...</label>
+                
+            </p>
+            
+            <!-- <input name="custom_utm_campaign" type="hidden" value=""><br>
+            <input name="custom_utm_medium" type="hidden" value=""><br>
+            <input name="custom_utm_source" type="hidden" value=""><br>
+            <input name="custom_utm_term" type="hidden" value=""><br>
+            <input name="custom_utm_content" type="hidden" value=""><br>
+            <input name="product_id" type="hidden" value="2976508000000268045"><br>
+            <input name="product_name" type="hidden" value="Реальные деньги в криптовалютах"><br>
+        
+            <input type="hidden" name="campaign_token" value="n96Ml">
+        
+            <input type="hidden" name="thankyou_url" value="http://cryptodnk.com/thx_page/">
+            Forward form data to your page (optional)
+            <input type="hidden" name="forward_data" value="GET">
+         -->
+            
+            <div class="submit-wrap">
+                <button type="submit">Участвовать в Мастер-Классе</button>
+            </div>
+        
+            <p class="info">Мы ненавидим СПАМ и обещаем <br>не передавать твой Email 3-м лицам.</p>
+        <button title="Close (Esc)" type="button" class="mfp-close popup__close icon-cancel" data-dismiss="modal" aria-label="Close">×</button>
+    </form>
+</div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-10 col-lg-7">
+                    <ul class="footer-links">
+                        <li class="modal-btn" data-modal="modal_1" data-toggle="modal" data-target="#modal_1">Политика конфиденциальности </li>
+                        <li class="modal-btn" data-modal="modal_2" data-toggle="modal" data-target="#modal_2"> Отказ от ответственности</li>
+                        <li class="modal-btn" data-modal="modal_3" data-toggle="modal" data-target="#modal_3">Согласие с рассылкой</li>
+                    </ul>
+                    <!--<a href="#">Политика конфиденциальности</a>-->
+                    <!--<a href="#">Отказ от ответственности</a>-->
+                    <!--<a href="#">Согласие с рассылкой</a>-->
+            </div>
+            <div class="col-md-2 col-lg-5 text-right">
+                <div class="rezart-logo">
+                    <a href="#"><img src="img/RezartLogo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal large" id="modal_1">
+        <div class="popup__close icon-cancel" data-dismiss="modal"></div>
+        <div class="modal-head">
+            <h4>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h4>
+        </div>
+        <div class="modal-content">
+            <p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
+            <p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в «Согласии с рассылкой»</p>
+            <p>Какие данные собираются на сайте</p>
+            <p>При добровольной регистрации на получение рассылки вы отправляете свое Имя и E-mail через форму регистрации.</p>
+            <p>С какой целью собираются эти данные</p>
+            <p>Имя используется для обращения лично к вам, а ваш e-mail для отправки вам писем рассылок, новостей, полезных материалов, коммерческих предложений. </p>
+        </div>
+    </div>
+    <div class="modal large" id="modal_2">
+        <div class="popup__close icon-cancel" data-dismiss="modal"></div>
+        <div class="modal-head">
+            <h4>ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ</h4>
+        </div>
+        <div class="modal-content">
+            <p>В соответствии с действующим законодательством, Администрация отказывается от каких-либо заверений и гарантий, предоставление которых может иным образом подразумеваться, и отказывается от ответственности в отношении Сайта, Содержимого и их использования.</p>
+            <p>Ни при каких обстоятельствах Администрация Сайта не будет нести ответственности ни перед какой стороной за какой-либо прямой, непрямой, особый или иной косвенный ущерб в результате любого использования информации на этом Сайте или на любом другом сайте, на который имеется гиперссылка с нашего cайта, возникновение зависимости, снижения продуктивности, увольнения или прерывания трудовой активности, а равно и отчисления из учебных учреждений, за любую упущенную выгоду, приостановку хозяйственной деятельности, потерю программ или данных в Ваших информационных системах или иным образом, возникшие в связи с доступом, использованием или невозможностью использования Сайта, Содержимого или какого-либо связанного интернет-сайта, или неработоспособностью, ошибкой, упущением, перебоем, дефектом, простоем в работе или задержкой в передаче, компьютерным вирусом или системным сбоем, даже если администрация будет явно поставлена в известность о возможности такого ущерба.</p>
+            <p>Пользователь соглашается с тем, что все возможные споры будут разрешаться по нормам права.</p>
+            <p>Пользователь соглашается с тем, что нормы и законы о защите прав потребителей не могут быть применимы к использованию им Сайта, поскольку он не оказывает возмездных услуг.</p>
+        </div>
+    </div>
+    <div class="modal large" id="modal_3">
+        <div class="popup__close icon-cancel" data-dismiss="modal"></div>
+        <div class="modal-head">
+            <h4>СОГЛАСИЕ С РАССЫЛКОЙ</h4>
+        </div>
+        <div class="modal-content">
+            <p>Заполняя форму на нашем сайте — вы соглашаетесь с нашей политикой конфиденциальности. Также вы соглашаетесь с тем, что мы имеем право разглашать ваши личные данные в следующих случаях:</p>
+            <p>1) С Вашего согласия: Во всех остальных случаях перед передачей информации о Вас третьим сторонам наша Компания обязуется получить Ваше явное согласие. Например, наша Компания может реализовывать совместное предложение или конкурс с третьей стороной, тогда мы попросим у Вас разрешение на совместное использование Вашей личной информации с третьей стороной.</p>
+            <p>2) Компаниям, работающим от нашего лица: Мы сотрудничаем с другими компаниями, выполняющими от нашего лица функции бизнес поддержки, в связи с чем Ваша личная информация может быть частично раскрыта. Мы требуем, чтобы такие компании использовали информацию только в целях предоставления услуг по договору; им запрещается передавать данную информацию другим сторонам в ситуациях, отличных от случаев, когда это вызвано необходимостью предоставления оговоренных услуг. Примеры функций бизнес поддержки: выполнение заказов, реализация заявок, выдача призов и бонусов, проведение опросов среди клиентов и управление информационными системами. Мы также раскрываем обобщенную неперсонифицированную информацию при выборе поставщиков услуг.</p>
+            <p>3) Дочерним и совместным предприятиям: Под дочерним или совместным предприятием понимается организация, не менее 50% долевого участия которой принадлежит Компании. При передаче Вашей информации партнеру по дочернему или совместному предприятию наша Компания требует не разглашать данную информацию другим сторонам в маркетинговых целях и не использовать Вашу информацию каким-либо путем, противоречащим Вашему выбору. Если Вы указали, что не хотите получать от нашей Компании какие-либо маркетинговые материалы, то мы не будем передавать Вашу информацию своим партнерам по дочерним и совместным предприятиям для маркетинговых целей.</p>
+            <p>4) На совместно позиционируемых или партнерских страницах: Наша Компания может делиться информацией с компаниями-партнерами, вместе с которыми реализует специальные предложения и мероприятия по продвижению товара на совместно позиционируемых страницах нашего сайта. При запросе анкетных данных на таких страницах Вы получите предупреждение о передаче информации. Партнер использует любую предоставленную Вами информацию согласно собственному уведомлению о конфиденциальности, с которым Вы можете ознакомиться перед предоставлением информации о себе.</p>
+            <p>5) При передаче контроля над предприятием: Наша Компания оставляет за собой право передавать Ваши анкетные данные в связи с полной или частичной продажей или трансфертом нашего предприятия или его активов. При продаже или трансферте бизнеса наша Компания предоставит Вам возможность отказаться от передачи информации о себе. В некоторых случаях это может означать, что новая организация не сможет далее предоставлять Вам услуги или продукты, ранее предоставляемые нашей Компанией.</p>
+            <p>6) При проведении мероприятий: Заполняя анкету участника на како-либо событие Компании, мы можем делиться Вашими данными с другими участниками. Это делается для удобства коммуникации между участниками мероприятия. Эти данные не будут переданы лицам, которые не являются участниками мероприятия, и которые не соответствуют пунктам в разделе «Согласие с рассылкой».</p>
+            <p>7) Правоохранительным органам: Наша Компания может без Вашего на то согласия раскрывать персональную информацию третьим сторонам по любой из следующих причин: во избежание нарушений закона, нормативных правовых актов или постановлений суда; участие в правительственных расследованиях; помощь в предотвращении мошенничества; а также укрепление или защита прав Компании или ее дочерних предприятий.</p>
+            <p>Вся личная информация, которая передана Вами для регистрации на нашем сайте, может быть в любой момент изменена либо полностью удалена из нашей базы по Вашему запросу. Для этого Вам необходимо связаться с нами любым удобным для Вас способом, использую контактную информацию, размещенную в специальном разделе нашего сайта.</p>
+            <p>Если Вы захотите отказаться от получения писем нашей регулярной рассылки, вы можете это сделать в любой момент с помощью специальной ссылки, которая размещается в конце каждого письма.</p>
+        </div>
+    </div>
+</footer>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
